@@ -1,0 +1,69 @@
+baseURL = "https://mariano-fernandez.github.io/"
+title = "Mariano Fernandez"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[pagination]
+pagerSize = 10
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = false
+
+[params]
+author = "Mariano Fernandez"
+description = "Developer blog, projects, and portfolio"
+keywords = "blog,developer,portfolio,cv"
+info = ["Developer"]
+dateFormat = "January 2, 2006"
+colorScheme = "dark"
+hideColorSchemeToggle = false
+customCSS = ["css/custom.css"]
+# Set to false to hide the Blog section from the site
+enableBlog = false
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/mariano-fernandez/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 2
+url = "https://www.linkedin.com/in/mariano-fernandez/"
+
+[[params.social]]
+name = "RSS"
+icon = "fa-solid fa-rss fa-2x"
+weight = 3
+url = "https://mariano-fernandez.github.io/index.xml"
+rel = "alternate"
+type = "application/rss+xml"
+
+[[menu.main]]
+name = "Home"
+weight = 1
+url = "/"
+
+[[menu.main]]
+name = "Blog"
+weight = 2
+url = "/posts/"
+
+[[menu.main]]
+name = "CV"
+weight = 3
+url = "/cv/"
