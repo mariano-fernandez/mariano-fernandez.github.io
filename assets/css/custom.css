@@ -1,0 +1,45 @@
+/* Dark developer theme enhancements */
+
+:root {
+  --dark-bg: #0d1117;
+  --dark-bg-secondary: #161b22;
+  --accent-green: #39d353;
+  --accent-cyan: #58a6ff;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --border-color: #30363d;
+}
+
+body.colorscheme_dark {
+  background-color: var(--dark-bg);
+}
+
+body.colorscheme_dark .content {
+  background-color: var(--dark-bg);
+}
+
+body.colorscheme_dark .navigation a,
+body.colorscheme_dark .navigation span {
+  font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", monospace;
+}
+
+body.colorscheme_dark h1,
+body.colorscheme_dark h2,
+body.colorscheme_dark h3,
+body.colorscheme_dark h4 {
+  font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", monospace;
+}
+
+body.colorscheme_dark a:hover {
+  color: var(--accent-green);
+}
+
+body.colorscheme_dark code {
+  background-color: var(--dark-bg-secondary);
+  border: 1px solid var(--border-color);
+}
+
+body.colorscheme_dark pre {
+  background-color: var(--dark-bg-secondary);
+  border: 1px solid var(--border-color);
+}
