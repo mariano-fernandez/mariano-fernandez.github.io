@@ -29,7 +29,7 @@ Deployment is handled automatically via GitHub Actions on push to `master`. The 
 
 - `content/_index.md` — Home page
 - `content/posts/` — Blog posts
-- `content/cv/` — CV / Portfolio page
+- `content/about/` — About page
 - `assets/css/custom.css` — Custom dark theme styles
 - `static/files/` — Downloadable files (CV PDF, etc.)
 - `static/images/` — Images (avatar, etc.)

@@ -47,9 +47,27 @@ weight = 2
 url = "https://www.linkedin.com/in/marianoluisfernandez/"
 
 [[params.social]]
+name = "GitLab"
+icon = "fa-brands fa-gitlab fa-2x"
+weight = 3
+url = "https://gitlab.com/mariano.fernandez"
+
+[[params.social]]
+name = "Last.fm"
+icon = "fa-brands fa-lastfm fa-2x"
+weight = 4
+url = "http://www.last.fm/user/kurtcomlf"
+
+[[params.social]]
+name = "Flickr"
+icon = "fa-brands fa-flickr fa-2x"
+weight = 5
+url = "https://www.flickr.com/people/kurtcomlf/"
+
+[[params.social]]
 name = "RSS"
 icon = "fa-solid fa-rss fa-2x"
-weight = 3
+weight = 6
 url = "https://mariano-fernandez.github.io/index.xml"
 rel = "alternate"
 type = "application/rss+xml"
@@ -65,6 +83,6 @@ weight = 2
 url = "/posts/"
 
 [[menu.main]]
-name = "CV"
+name = "About"
 weight = 3
-url = "/cv/"
+url = "/about/"
