@@ -18,6 +18,10 @@ body.colorscheme_dark .content {
   background-color: var(--dark-bg);
 }
 
+.navigation .navigation-title {
+  text-transform: none !important;
+}
+
 body.colorscheme_dark .navigation a,
 body.colorscheme_dark .navigation span {
   font-family: "Fira Code", "JetBrains Mono", "Cascadia Code", monospace;

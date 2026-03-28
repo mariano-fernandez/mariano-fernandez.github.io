@@ -27,4 +27,4 @@ Developer based in Brittany.
 ## Contact
 
 - GitHub: [mariano-fernandez](https://github.com/mariano-fernandez)
-- LinkedIn: [mariano-fernandez](https://www.linkedin.com/in/mariano-fernandez/)
+- LinkedIn: [marianoluisfernandez](https://www.linkedin.com/in/marianoluisfernandez/)
