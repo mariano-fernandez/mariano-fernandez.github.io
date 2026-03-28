@@ -1,5 +1,5 @@
 baseURL = "https://mariano-fernandez.github.io/"
-title = "Mariano Fernandez"
+title = "~/mariano"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -20,7 +20,8 @@ unsafe = false
 author = "Mariano Fernandez"
 description = "Developer blog, projects, and portfolio"
 keywords = "blog,developer,portfolio,cv"
-info = ["Developer"]
+info = ["Breaking prod so you don't have to"]
+avatarURL = "images/avatar.png"
 dateFormat = "January 2, 2006"
 colorScheme = "dark"
 hideColorSchemeToggle = false
@@ -43,7 +44,7 @@ url = "https://github.com/mariano-fernandez/"
 name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
 weight = 2
-url = "https://www.linkedin.com/in/mariano-fernandez/"
+url = "https://www.linkedin.com/in/marianoluisfernandez/"
 
 [[params.social]]
 name = "RSS"
