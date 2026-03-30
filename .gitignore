@@ -3,6 +3,7 @@ resources/
 .hugo_build.lock
 .DS_Store
 .idea/
-.claude/
+.claude/settings.local.json
+.claude/plans/
 .env
 .env.local
