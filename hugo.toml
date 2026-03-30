@@ -64,14 +64,6 @@ icon = "fa-brands fa-flickr fa-2x"
 weight = 5
 url = "https://www.flickr.com/people/kurtcomlf/"
 
-[[params.social]]
-name = "RSS"
-icon = "fa-solid fa-rss fa-2x"
-weight = 6
-url = "https://mariano-fernandez.github.io/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
-
 [[menu.main]]
 name = "Home"
 weight = 1
